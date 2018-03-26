@@ -1,0 +1,143 @@
+#content-topo{
+    height: 70px;
+    line-height: 70px;
+    padding: 10px 30px;
+}
+
+.sistem-logo{
+    height: 40px;
+    width: 180px;
+    margin: 5px 0;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.user-buttons{
+    float: right;
+    text-align: right;
+}
+
+.content-topo-label{
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    font-weight: lighter;
+}
+
+/* ==================== DROP DOWN ALERT BTN */
+.user-alerts.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.user-alerts .dropdown-btn {
+    background-color:#4998D1;
+    color: white;
+    display: block;
+    height: 50px;
+    width:50px;
+    line-height:50px;
+    text-align: center;
+}
+.alert-number{
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: red;
+    color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: -5px;
+    font-size: 14px;
+}
+.user-alerts .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4998D1;
+    width: 270px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+    margin-left: -220px;
+}
+.user-alerts .dropdown-content a {
+    color: #fff;
+    padding: 0px 16px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.user-alerts .dropdown-content a:hover {background-color: #3988C1}
+.user-alerts.dropdown:hover .dropdown-content {display: block;}
+.user-alerts.dropdown:hover .dropdown-btn {
+    background-color: #4998D1;
+}
+/* ==================== DROP DOWN ALERT BTN */
+
+
+
+
+
+/* ==================== DROP DOWN USER BTN */
+.user-menu-icon{
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    line-height: 50px;
+    float: left;
+}
+.user-menu .azul{
+    color: #4998D1;
+}
+.user-menu .user-menu-name{
+    height: 50px;
+    width: 120px;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    float: left;
+    font-size: 14px;
+}
+.user-menu.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.user-menu .dropdown-btn {
+    background-color:#00233D;
+    color: white;
+    display: block;
+    height: 50px;
+    width:auto;
+    text-align: center;
+}
+.user-menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00233D;
+    width: 270px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+.user-menu .dropdown-content a {
+    color: #fff;
+    padding: 0px 16px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.user-menu .dropdown-content a:hover {background-color: #10334D}
+
+.user-menu.dropdown:hover .dropdown-content {display: block;}
+
+.user-menu.dropdown:hover .dropdown-btn {background-color: #00233D;}
+/* ==================== DROP DOWN USER BTN */

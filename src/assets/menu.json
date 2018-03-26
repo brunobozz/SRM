@@ -1,0 +1,25 @@
+{
+    "menu":[
+        {
+            "title":"Painel de Gestão",
+            "icon":"1",
+            "subMenu":false,
+            "url":"#",
+            "active":true
+        },
+        {
+            "title":"Conta Digital",
+            "icon":"2",
+            "subMenu":false,
+            "url":"#",
+            "active":false
+        },
+        {
+            "title":"Ant. de Recebíveis",
+            "icon":"3",
+            "subMenu":true,
+            "url":"#",
+            "active":false
+        }
+    ]
+}

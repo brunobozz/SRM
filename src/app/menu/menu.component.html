@@ -1,0 +1,22 @@
+<div id="menu">
+  <div class="menu-pesquisar">
+      <div class="input-group">
+          <input type="text" class="form-control" placeholder="Pesquise Aqui" name="search">
+          <div class="input-group-btn">
+            <button class="" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+  </div>
+
+  <!-- Monta menu lateral -->
+  <div class="menu-list">
+    <a *ngFor="let item of jsonMenu" ng-click="clickMenu()" [class.active]="item.active === true" href="#">
+      <div class="active-icon"></div>
+      <img src="../assets/icons/icon{{ item.icon }}.svg"/>
+      <span>{{ item.title }}</span>
+      <i *ngIf="item.subMenu" class="fas fa-angle-double-right azul"></i>
+    </a>
+  </div>
+</div>

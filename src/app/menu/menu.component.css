@@ -1,0 +1,71 @@
+#menu{
+    background-color:#00233D;
+    height: 100%;
+}
+
+.menu-pesquisar{
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+    background: #fff;
+    border-right: 2px solid #ccc;
+}
+
+.menu-pesquisar input{
+    width: 100%;
+    height: 70px;
+    position: relative;
+    display: block;
+    text-align: right;
+    padding-right: 60px;
+    border: none;
+}
+.menu-pesquisar button{
+    position: absolute;
+    height: 70px;
+    width: 50px;
+    margin-left: -50px;
+    z-index: 10;
+    border: none;
+    background: #fff;
+    color: #666;
+    cursor: pointer;
+}
+.menu-list{
+    height: 100%;
+    overflow-y:auto;
+}
+.menu-list a{
+    display: block;
+    border-bottom: 1px solid #3174A3;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: lighter;
+    text-decoration: none;
+} 
+.menu-list a .active-icon{
+    height: 15px;
+    width: 15px;
+    background-color: #ECECEC;
+    position: absolute;
+    margin-left: calc(100% - 28px);
+    transform: rotate(45deg);
+    margin-top: 11px;
+    display: none;
+}
+.menu-list a.active .active-icon{
+    display: block;
+}
+.menu-list a:hover{
+    background: #10334D;
+}
+.menu-list a img{
+    margin-right: 5px;
+}
+.menu-list a .azul{
+    color: #4998D1;
+    float: right;
+    height: 37px;
+    line-height: 37px;
+}

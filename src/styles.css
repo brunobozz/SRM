@@ -1,1 +1,145 @@
 /* You can add global styles to this file, and also import other style files */
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body{
+    color:#666;
+}
+
+.full-height{
+    height:100%;
+}
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+[class^="col"]{
+    padding: 0;   
+}
+
+.pull-right{float: right;}
+.pull-left{float: left;}
+
+.azul{color: #4998D1;}
+
+.align-right{text-align: right;}
+
+.btn-default{
+    width: 100%;
+    padding: 5px 0;
+    margin: 5px 0;
+    text-align: center;
+    border: 1px solid #4998D1;
+    font-weight: lighter;
+    font-size: 12px;
+    cursor: pointer;
+}
+.btn-default:hover{
+    background: #4998D1;
+    color: #fff;
+}
+
+
+
+/* ==================== DROP-DEFAULT */
+.drop-default {
+    position: relative;
+    display: inline-block;
+    margin:0 20px;
+}
+.drop-default-btn {
+    background-color:none;
+    color: #999;
+    display: block;
+    height: 50px;
+    width:auto;
+    text-align: center;
+    padding-left: 15px;
+    border: 1px solid #4998D1;
+}
+.drop-default-icon{
+    height: 50px;
+    width: 40px;
+    margin: 0;
+    line-height: 50px;
+    float: left;
+}
+.drop-default .azul{
+    color: #4998D1;
+}
+.drop-default-name{
+    height: 50px;
+    width: 120px;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    float: left;
+    font-size: 14px;
+}
+.drop-default-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 177px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+.drop-default-content a {
+    padding: 0px 16px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #999;
+    border: 1px solid #4998D1;
+    border-top:none;
+}
+.drop-default-content a:hover {background-color: #f0f0f0}
+
+.drop-default:hover .drop-default-content {display: block;}
+/* ==================== DROP-DEFAULT */
+
+
+
+/* ==================== DROP-DEFAULT-ACOES */
+.drop-default.acoes{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.drop-default.acoes .drop-default-btn {
+    height: 30px;
+    width: 100%;
+}
+.drop-default.acoes .drop-default-icon{
+    height: 30px;
+    line-height: 30px;
+    width: 20px;
+    float: right;
+}
+.drop-default.acoes .drop-default-content a {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #666;
+}
+.drop-default.acoes .drop-default-content {
+    width:100%;
+}
+.drop-default.acoes .drop-default-name{
+    height: 30px;
+    line-height: 30px;
+    width: auto;
+    font-size: 12px;
+    color: #666;
+    float: none;
+}
+/* ==================== DROP-DEFAULT-ACOES */
